@@ -20,9 +20,10 @@ extra-source-files:  CHANGELOG.md, README.md
 
 executable chunked-parser-gen
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:       CmdLine
   -- other-extensions:
   build-depends:       base
                      , base-compat
+                     , filepath
   hs-source-dirs:      src
   default-language:    Haskell2010
